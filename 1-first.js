@@ -1,19 +1,8 @@
-//console.log("Hello world");
-//document.write(123);
+//console.log(10)
 
-//var age = (10);
-//console.log(age);
+//console.log(20)
 
+//variables
 
-let age = 40;
-let customerName = "Rakesh";
-
+var age =10;
 console.log(age);
-console.log(customerName);
-
-var customerID = 99;
-console.log(customerID);
-
-const num = [1,2,3,4];
-console.log(num);
-
