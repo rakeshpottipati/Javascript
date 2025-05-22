@@ -58,5 +58,5 @@
         
 setInterval(function() {
     //console.log("rakesh");
-   document.write("rakesh love hema")
+   document.write("rakesh")
 },2000);
