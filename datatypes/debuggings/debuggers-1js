@@ -1,0 +1,34 @@
+//f 11 seto in to the function
+
+function logMessage(foodItem){
+     //document.write("Hello, World!");
+     //document.write("Welcome to the JavaScript world!");
+    // document.write("Happy coding!");
+    //document.write("Hello ... YOu have ordered" + foodItem );
+}
+
+ function orderFood(){
+  logMessage("Veg biriyani");
+     document.write("Your order has been placed successfully!");
+ }
+
+
+let foodItemName = "veg biriyani";
+//console.log(foodItemName);
+document.write(foodItemName);
+//debugger;  
+
+let deliveryLocation = "bangalore city";
+//console.log(deliveryLocation);
+//document.write(deliveryLocation);
+
+
+logMessage();
+orderFood();
+
+
+
+let estimateDeliveryTime = "30 Mins";
+//console.log(estimateDeliveryTime);
+document.write(estimateDeliveryTime);
+//debugger;  
