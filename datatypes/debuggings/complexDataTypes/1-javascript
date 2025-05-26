@@ -1,0 +1,18 @@
+var author = {
+    name         : "RabindraNathTagore",
+    dateofbirth  : "May 7, 1861",
+    books        : ["Gitanjali", "The Home and the World", "Gora"],
+    getBooksCount : function(){
+        //console.log("Total Books are 3");
+        //document.writeln("Total Books are 3");
+        return "Total Books are 3"
+    }
+}
+ document.writeln(author.name);
+ document.writeln(author.dateofbirth);
+ document.writeln(author.books);
+
+document.writeln(author.getBooksCount());  
+
+var result = author.getBooksCount();
+console.log(result);
